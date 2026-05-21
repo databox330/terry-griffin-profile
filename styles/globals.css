@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  font-family: "Montserrat", sans-serif ;
+}
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+@layer utilities {
+  body::-webkit-scrollbar {
+    width: 0.4em;
+    background-color: #000000;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: #4c5474;
+    scrollbar-gutter: stable;
+    border-radius: 40px;
+  }
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
